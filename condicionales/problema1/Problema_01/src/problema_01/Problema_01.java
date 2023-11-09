@@ -37,8 +37,6 @@ public class Problema_01 {
            total = total - (total * descuento);
            System.out.printf("El valor total a pagar es: %.2f\n", total);
         } else {
-            descuento = 0;
-            total = total - (total * descuento);
             System.out.printf("El valor total a pagar es: %.2f\n", total);
         }
     }
