@@ -21,14 +21,14 @@ public class Problema_01 {
         Scanner entrada = new Scanner(System.in);
         entrada.useLocale(Locale.US);
         double valor_kilovatio_hora;
-        int kilovatios_consumidos;        
+        double kilovatios_consumidos;        
         int edad;
         double total;
         double descuento;
         System.out.println("Ingresar el valor de kilovatio/hora");
         valor_kilovatio_hora = entrada.nextDouble();
         System.out.println("Ingresar el valor de kilovatios consumidos en el mes");
-        kilovatios_consumidos = entrada.nextInt();
+        kilovatios_consumidos = entrada.nextDouble();
         System.out.println("Ingrese su edad");
         edad = entrada.nextInt();
         descuento = 0.10;

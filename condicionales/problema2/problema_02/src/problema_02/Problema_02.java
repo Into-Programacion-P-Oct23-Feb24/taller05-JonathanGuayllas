@@ -4,6 +4,8 @@
  */
 package problema_02;
 
+import java.util.Locale;
+import java.util.Scanner;
 /**
  *
  * @author jdgua
@@ -15,10 +17,19 @@ public class Problema_02 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        Scanner entrada = new Scanner(System.in);
+        entrada.useLocale(Locale.US);
         String descripcion;
         int cantidad_requerida;
         double precio_unitario;
         double descuento;
+        double precio_total;
+        System.out.println("Ingresar la descripción del producto");
+        descripcion = entrada.nextLine();
+        System.out.println("Ingresar la cantidad requerida");
+        cantidad_requerida = entrada.nextInt();
+        System.out.println("Ingresar el precio unitario");
+        precio_unitario = entrada.nextInt();
     }
     
 }
