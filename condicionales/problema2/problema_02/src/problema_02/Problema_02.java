@@ -30,6 +30,15 @@ public class Problema_02 {
         cantidad_requerida = entrada.nextInt();
         System.out.println("Ingresar el precio unitario");
         precio_unitario = entrada.nextInt();
+        descuento = 0.15;
+        precio_total = cantidad_requerida * precio_unitario;
+        if (cantidad_requerida > 50) {
+           precio_total = precio_total - (precio_total * descuento);      
+           System.out.printf("El valor total a pagar es: %.2f\n", precio_total);
+        } else {
+                System.out.printf("El valor total a pagar es: %.2f\n", 
+                        precio_total);     
+        }
     }
     
 }
