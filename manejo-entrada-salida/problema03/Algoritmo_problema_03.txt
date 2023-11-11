@@ -1,8 +1,0 @@
-1) Inicio
-2) Ingrese el costo por minutos
-3) Ingrese el número de minutos consumidos en el mes
-4) Multiplicar (el costo por minutos * el número de minutos 
-   consumidos en el mes) 
-5) Mostrar el valor obtenido de la multiplicación, el cual sera 
-   el valor de la planilla de teléfono de una casa
-6) Fin
