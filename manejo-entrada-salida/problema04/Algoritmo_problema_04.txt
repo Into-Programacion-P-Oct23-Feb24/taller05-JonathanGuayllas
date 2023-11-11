@@ -1,8 +1,0 @@
-1) Inicio
-2) Ingresar el costo del CPU
-3) Ingresar el costo del teclado
-4) Ingresar el costo de la pantalla
-5) Ingresar el costo del ratón
-6) Sumar el costo del (CPU + teclado + pantalla + ratón)
-7) Mostrar el resultado de la suma (Costo total de la computadora)
-8) Fin
