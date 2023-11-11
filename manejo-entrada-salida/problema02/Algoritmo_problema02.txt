@@ -1,7 +1,0 @@
-1) Inicio
-2) Ingresar los gastos del primer hijo del padre de familia
-3) Ingresar los gastos del segundo hijo  del padre de familia
-4) Ingresar los gastos del tercer hijo del padre de familia
-5) Sumar los gastos de los hijos del padre de familia
-6) Mostrar el total de gastos de los hijos del padre de familia 
-7) Fin

@@ -32,7 +32,7 @@ public class Problema_03 {
 
         costo_total = costo_minutos * minutos_consumidos;
 
-        System.out.printf("El valor de la planilla de telefóno es: %.2f\n",
+        System.out.printf("El valor de la plantilla de telefóno es: %.2f\n",
                             costo_total);
     }
 
