@@ -6,6 +6,7 @@ package problema_05;
 
 import java.util.Locale;
 import java.util.Scanner;
+
 /**
  *
  * @author jdgua
@@ -19,7 +20,7 @@ public class Problema_05 {
         // TODO code application logic here
         Scanner entrada = new Scanner(System.in);
         entrada.useLocale(Locale.US);
-        
+
         double netflix;
         double youtube;
         double dropbox;
@@ -27,7 +28,7 @@ public class Problema_05 {
         double total;
         double descuento;
         int edad;
-        
+
         System.out.println("Ingresar el costo mensual de netflix");
         netflix = entrada.nextDouble();
         System.out.println("Ingresar el costo mensual de youtube premium");
@@ -36,14 +37,22 @@ public class Problema_05 {
         dropbox = entrada.nextDouble();
         System.out.println("Ingresar el costo mensual de spotify");
         spotify = entrada.nextDouble();
-        System.out.println("Ingresar el costo mensual de spotify");
+        System.out.println("Ingrese su edad");
         edad = entrada.nextInt();
-        
+
         total = netflix + youtube + dropbox + spotify;
-        
-        if (edad < 30){
-           descuento = 0.20; 
+
+        if (edad < 30) {
+            descuento = 0.20;
+            total = total - (total * descuento);
+            System.out.printf("""
+                             El valor total a pagar por sus servicios digitales es: %.2f
+                             """, total);
+        } else {
+            System.out.printf("""
+                              El valor total a pagar por sus servicios digitales es: %.2f
+                              """, total);
         }
     }
-    
+
 }
