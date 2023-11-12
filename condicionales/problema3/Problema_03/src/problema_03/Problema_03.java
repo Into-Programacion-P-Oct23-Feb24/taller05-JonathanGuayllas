@@ -39,7 +39,7 @@ public class Problema_03 {
                               Precio de venta: %.2f
                               """, impuesto, precio_venta);
         } else {
-            if (origen.equals("Japón") || origen.equals("japon")) {
+            if (origen.equals("Japon") || origen.equals("japon")) {
                 impuesto = costo * 0.30;
                 precio_venta = costo + impuesto;
                 System.out.printf("""
