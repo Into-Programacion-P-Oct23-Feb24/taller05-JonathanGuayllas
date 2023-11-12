@@ -43,9 +43,9 @@ public class Problema_03 {
                 impuesto = costo * 0.30;
                 precio_venta = costo + impuesto;
                 System.out.printf("""
-                                  Impuesto por pagar: %.2f
-                                  Precio de venta: %.2f
-                                  """, impuesto, precio_venta);
+                                      Impuesto por pagar: %.2f
+                                      Precio de venta: %.2f
+                                      """, impuesto, precio_venta);
             } else {
                 if (origen.equals("Italia") || origen.equals("italia")) {
                     impuesto = costo * 0.15;
@@ -61,10 +61,14 @@ public class Problema_03 {
                         System.out.printf("""
                                          Impuesto por pagar: %.2f
                                          Precio de venta: %.2f""",
-                                     impuesto, precio_venta);
+                                impuesto, precio_venta);
                     } else {
-                        System.out.println("El automóvil no pertenece a ninguno de"
-                                + " nuestros origenes");
+                        impuesto = 0;
+                        precio_venta = costo;
+                        System.out.printf("""
+                                      Impuesto por pagar: %.2f
+                                      Precio de venta: %.2f
+                                      """, impuesto, precio_venta);
                     }
                 }
             }
